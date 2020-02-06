@@ -14,3 +14,12 @@ do
    echo "$thing" &
 done
 ```
+## parse tsv or csv file
+
+```bash
+while IFS=$',' read -r -a myArray
+do
+    echo "${myArray[0]}"
+    echo "${myArray[1]}"
+done < my_file
+```
