@@ -1,6 +1,9 @@
 # Notes for bash
 
 ## string split
+* remove suffix and keep basename
+  `NAME=$(basename /foo/fizzbuzz.bar .bar)`
+
 
 ## parallel computing
 
