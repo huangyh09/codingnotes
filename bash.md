@@ -3,6 +3,7 @@
 ## string split
 * remove suffix and keep basename
   `NAME=$(basename /foo/fizzbuzz.bar .bar)`
+* remove suffix (alternative way): `cell=${MYFILE%.sorted.bam}`
 
 
 ## parallel computing
