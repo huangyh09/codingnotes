@@ -27,3 +27,16 @@ do
     echo "${myArray[1]}"
 done < my_file
 ```
+
+
+## grep multiple patterns
+
+```bash
+grep "Unique\|mapped length\|Mismatch" */NC_007605.1.STAR.bulkLog.final.out
+```
+
+## view folder structure
+
+```bash
+tree -L 2
+```
