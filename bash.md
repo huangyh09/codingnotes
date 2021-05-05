@@ -1,9 +1,12 @@
 # Notes for bash
 
 ## string split
-* remove suffix and keep basename
+* remove prefix: `cell=${MYFILE#.sorted.bam}`
+* remove suffix: `cell=${MYFILE%.sorted.bam}`
+* remove suffix (alternative way) and keep basename:
   `NAME=$(basename /foo/fizzbuzz.bar .bar)`
-* remove suffix (alternative way): `cell=${MYFILE%.sorted.bam}`
+
+
 
 
 ## parallel computing
