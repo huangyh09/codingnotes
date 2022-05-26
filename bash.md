@@ -43,3 +43,10 @@ grep "Unique\|mapped length\|Mismatch" */NC_007605.1.STAR.bulkLog.final.out
 ```bash
 tree -L 2
 ```
+
+## FTP download
+
+```
+wget --mirror --user=YOUR_USER --ask-password ftp://YOURSITE/YOUR_FOLDER[*]
+```
+
