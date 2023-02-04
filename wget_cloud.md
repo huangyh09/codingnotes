@@ -13,7 +13,7 @@
   ```
   
 ## Google drive
-
+* One may follow this [source answer](https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99)
 
 ## Zenodo
 * Zenodo is well supported. Just add `-O FILE_NAME_TO_SAVE` or remove the `&download=1` suffix:
