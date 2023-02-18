@@ -26,6 +26,10 @@ print(B >= 0) # False for np.nan
 # Option 5: convert to int
 A.astype(int) # Error
 B.astype(int) # -9223372036854775808
+
+# Option 6: convert to float (be careful if followed by Option 5)
+A.astype(float) # None becomes np.nan
+B.astype(float) # Itself
 ```
 
 In summary, `None` and `np.nan` are very different in detection. If you know which is used, you can choose the effective way.
