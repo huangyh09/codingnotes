@@ -5,6 +5,10 @@
 * remove suffix: `cell=${MYFILE%.sorted.bam}`
 * remove suffix (alternative way) and keep basename:
   `NAME=$(basename /foo/fizzbuzz.bar .bar)`
+  
+* `cut`: split string with delimiter: `echo "my file is here" | cut -d " " -f 2`
+* `awk`: similarly `echo "my file is here" | awk -F " " '{print $2}'`
+* `tr` : split string into array `my_array=$(echo "my file is here" | tr " " "\n")`
 
 
 
