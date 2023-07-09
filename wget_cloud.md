@@ -21,6 +21,11 @@
   ```bash
   wget https://zenodo.org/record/3723681/files/single-cell-genetics/vireo-v0.2.3.zip
   ```
+## Figshare
+* [Example figshare data](https://doi.org/10.6084/m9.figshare.22960949) for download
+  ```bash
+  wget --no-check-certificate https://figshare.com/ndownloader/files/41045918 -O mel_adata.h5ad
+  ```
 
 ## FTP download
 * Example
